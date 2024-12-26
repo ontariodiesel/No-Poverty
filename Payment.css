@@ -1,0 +1,37 @@
+.payment-button {
+  display: block;
+  margin: 15px auto;
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+
+/* Individual button styles */
+.payment-button.visa {
+  background-color: #1a1f71; /* Visa's brand color */
+}
+
+.payment-button.paypal {
+  background-color: #003087; /* PayPal's brand color */
+}
+
+.payment-button.mastercard {
+  background-color: #f79e1b; /* MasterCard's brand color */
+}
+
+.payment-button.apple-pay {
+  background-color: #000; /* Black for Apple Pay */
+}
+
+.payment-button.google-pay {
+  background-color: #4285F4; /* Google Blue */
+}
+
+.payment-button:hover {
+  opacity: 0.9;
+}
